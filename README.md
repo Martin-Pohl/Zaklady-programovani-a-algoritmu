@@ -1,2 +1,2 @@
-# Z-klady-programov-n-a-algoritm-
+# Zaklady-programovani-a-algoritmu
 Pro účely kurzu
