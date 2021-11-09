@@ -76,3 +76,15 @@ zen = """
 ... If the implementation is easy to explain, it may be a good idea."""
 zen = set(zen)
 alphabet.difference(zen)
+
+
+#Odstranění ze slovníku (50)#
+d = {'payton':'An interpreted, object-oriented programming language'}
+d.pop('payton')
+print(d)
+
+#Práce se slovníkem (51)#
+dict = {('Martin','Pohl'): 123456789}
+
+
+#poslední úkol chybí#
