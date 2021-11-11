@@ -79,12 +79,15 @@ alphabet.difference(zen)
 
 
 #Odstranění ze slovníku (50)#
+#druhý pokus: zase jsem smazal key i value (a potom přidal novou dvojici)#
 d = {'payton':'An interpreted, object-oriented programming language'}
-d.pop('payton')
-print(d)
+del d['payton']
+d['python'] = 'An interpreted, object-oriented programming language'
 
 #Práce se slovníkem (51)#
 dict = {('Martin','Pohl'): 123456789}
 
-
-#poslední úkol chybí#
+#nově přidaný poslední úkol#
+info = {('Name', 'Surname'):('John', 'Doe')}
+info['Name', 'Surname'] = 'John_Doe'
+info.values()
